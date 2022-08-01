@@ -1,0 +1,3 @@
+<li *ngFor="let item of array" [ngClass]="item.price < 0 ? 'text-red' : 'text-green'">
+    {{ item.item }}: {{ item.price }}
+</li>

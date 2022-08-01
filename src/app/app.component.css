@@ -1,0 +1,22 @@
+form {
+    position: relative;
+}
+
+.error-message {
+    position: absolute;
+    top: 25px;
+    color: purple;
+}
+
+button[type="submit"]:enabled {
+    cursor: pointer;
+}
+
+.info {
+    color: palevioletred;
+    margin-left: 20px;
+}
+
+section {
+    margin-top: 50px;
+}
