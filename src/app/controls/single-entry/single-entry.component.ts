@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { BudgetEntry } from '../models/budget-entry';
+import { BudgetEntry } from '../../models/budget-entry';
 
 @Component({
   selector: 'single-entry',
